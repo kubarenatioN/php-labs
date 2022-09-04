@@ -1,0 +1,27 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+html {
+    font-family: sans-serif;
+}
+.menu__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.menu__link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #eeeeff;
+    margin-right: 10px;
+    transition: .2s;
+    color: inherit;
+}
+
+.menu__link:hover {
+    background-color: #ccccff;
+}
